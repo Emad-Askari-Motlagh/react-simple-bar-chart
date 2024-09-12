@@ -1,1 +1,1 @@
-export { default as ReactSimpleChart } from './SimpleCart';
+export { default as ReactSimpleChart } from './SimpleChart';

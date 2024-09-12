@@ -24,4 +24,4 @@ interface ChartComponentProps {
 }
 declare const ChartComponent: React.FC<ChartComponentProps>;
 export default ChartComponent;
-//# sourceMappingURL=SimpleCart.d.ts.map
+//# sourceMappingURL=SimpleChart.d.ts.map
