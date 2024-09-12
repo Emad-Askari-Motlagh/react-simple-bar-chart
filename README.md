@@ -1,4 +1,4 @@
-react_simple_chart
+simple_react_bar_chart
 #The module is still in test process
 react-simple-bar-chart is a simple React component for visualizing and selecting ranges on a calendar.(max 3 for each row) It's designed to be flexible and easy to integrate into your React applications.
 
@@ -16,11 +16,11 @@ The app works on matching keys on data and xAxis.(if xAxis and data has same key
 
 📦 Installation
 
-To install react_simple_chart, use npm or yarn:
+To install simple_react_bar_chart, use npm or yarn:
 
 bash
 Copy code
-npm install react_simple_chart
+npm install simple_react_bar_chart
 or
 
 bash
@@ -32,7 +32,7 @@ yarn add react-simple-bar-chart
 Example of use
 
 ```jsx
-import ChartComponent from "react_simple_chart";
+import ChartComponent from "simple_react_bar_chart";
 import { useState } from "react";
 interface Data {
   key: number;

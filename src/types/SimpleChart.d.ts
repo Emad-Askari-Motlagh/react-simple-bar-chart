@@ -1,4 +1,4 @@
-declare module 'react-simple-bar-chart' {
+declare module 'react_simple_bar_chart' {
     interface Data {
         key: number;
         beginNumber: number;
