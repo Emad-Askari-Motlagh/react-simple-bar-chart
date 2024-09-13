@@ -86,8 +86,7 @@ const ChartComponent: React.FC<ChartComponentProps> = ({
                       currentIndex={dayIndex}
                         quantity={yAxisLength + 1}
                         color={event.color}
-                        startCell={data[dayIndex]?data[dayIndex].beginNumber:0}
-                        endCell={data[dayIndex]?data[dayIndex].endNumber:0}
+                      
                       />
                     </div>
                   );
@@ -97,8 +96,7 @@ const ChartComponent: React.FC<ChartComponentProps> = ({
                   quantity={yAxisLength + 1}
                   color="transparent"
                   currentIndex={0}
-                  startCell={data[i]?data[i].beginNumber:0}
-                        endCell={data[i]?data[i].endNumber:0}
+               
                 />
               );
 
@@ -201,11 +199,11 @@ const ChartItem = ({
   quantity,
   color,
   currentIndex,
-  startCell,endCell
+
 }: {
   quantity: number;
   color: string;
-  currentIndex:number;  startCell:number,endCell:number
+  currentIndex:number; 
 }) => (
   <div>
     <div
@@ -214,7 +212,7 @@ const ChartItem = ({
         backgroundColor: color,
         minWidth: "100%",
         height: "20px",
-        borderRadius:currentIndex+1===startCell?'20px':0
+    
       }}></div>
   </div>
 );
